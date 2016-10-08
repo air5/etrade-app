@@ -25,8 +25,8 @@ public class EtradeAppApplication {
 	public IOAuthClient client = null;
 	public ClientRequest request = null;
 	public Token token = null;
-	public String oauth_consumer_key = "7cb40576e5665a73f99c9ad405709021"; // Your consumer key
-	public String oauth_consumer_secret = "6827d6eed8733a090e979cbed8609eae"; // Your consumer secret
+	public String oauth_consumer_key = null; // Your consumer key
+	public String oauth_consumer_secret = null; // Your consumer secret
 	public String oauth_request_token = null; // Request token
 	public String oauth_request_token_secret = null; // Request token secret
 
